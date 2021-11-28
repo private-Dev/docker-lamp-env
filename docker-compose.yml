@@ -29,6 +29,7 @@ services:
   ports:
    - 8001:8080
  phpmyadmin:
+  container_name: phpmyadmin
   image: phpmyadmin/phpmyadmin
   depends_on:
    - db
