@@ -10,3 +10,5 @@ install docker docker-compose
 go to git folder
 
 run docker-compose up
+
+use php folder as a source files for development
