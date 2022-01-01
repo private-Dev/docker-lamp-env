@@ -2,7 +2,7 @@ version: '3.3'
 services:
  web:       # it's a name can be what ever you want  
    build:
-    context: ./php 		# on build de service  de le dossier ./php 
+    context: ./php # on build de service  de le dossier ./php 
     dockerfile: Dockerfile    # le dockerfile present gère le lancement et la configuration
    container_name: php73   # what ever name you want to 
    volumes:
