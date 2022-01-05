@@ -6,7 +6,7 @@ services:
     dockerfile: Dockerfile    # le dockerfile present gère le lancement et la configuration
    container_name: php73   # what ever name you want to 
    volumes:
-    - ./php:/var/www/html/     # local folder  : destination in docker env folder
+    - ./www:/var/www/html/     # local folder  : destination in docker env folder
    ports:
     - 8000:80                  #local port expose   : port inside docker 
  db:
